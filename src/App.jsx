@@ -1,8 +1,8 @@
 import Header from "@component/header";
 import Footter from "@component/footer";
-import { Main , Container} from "@containers";
+import { Main  } from "@containers";
 
-import { Intro ,  } from "@sections";
+import { Intro , MainSection , Edufrre  ,Gratis} from "@sections";
 
 
 const App = () => {
@@ -11,7 +11,9 @@ const App = () => {
     <Header />
     <Main>
       <Intro/>
-      
+      <MainSection/>
+      <Edufrre/>
+      <Gratis/>
 
     </Main>
     <Footter />

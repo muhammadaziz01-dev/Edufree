@@ -1,10 +1,10 @@
 import "./style.scss";
 
-const index = () => {
+const index = ({ titil }) => {
     return (
-        <div>
-            
-        </div>
+        <button>
+            {titil}
+        </button>
     );
 };
 

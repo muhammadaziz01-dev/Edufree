@@ -1,0 +1,31 @@
+button{
+    color: #282938;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    padding: 15px 43px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #FCD980 !important;
+    border: 1px solid transparent;
+
+    &:hover{
+          transition: all .2s linear;
+          background: transparent !important;
+          color: #FCD980;
+          border: 1px solid #FCD980 !important;
+    }
+
+    &:active{
+        transition: all .2s linear;
+        background: #FCD980 !important;
+        color: #282938;
+        border: 1px solid transparent;
+    }
+}
