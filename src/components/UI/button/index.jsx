@@ -2,7 +2,7 @@ import "./style.scss";
 
 const index = ({ titil }) => {
     return (
-        <button>
+        <button className="button1">
             {titil}
         </button>
     );

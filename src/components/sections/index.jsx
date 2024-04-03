@@ -2,5 +2,6 @@ import Intro from "./intro";
 import MainSection from "./main-section";
 import Edufrre from "./edufrre";
 import Gratis from "./gratis";
+import Kursus from "./kursus";
 
-export { Intro , MainSection , Edufrre , Gratis } 
+export { Intro , MainSection , Edufrre , Gratis , Kursus } 

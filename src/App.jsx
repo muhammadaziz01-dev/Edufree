@@ -2,7 +2,7 @@ import Header from "@component/header";
 import Footter from "@component/footer";
 import { Main  } from "@containers";
 
-import { Intro , MainSection , Edufrre  ,Gratis} from "@sections";
+import { Intro , MainSection , Edufrre  ,Gratis , Kursus} from "@sections";
 
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <MainSection/>
       <Edufrre/>
       <Gratis/>
-
+       <Kursus/>
     </Main>
     <Footter />
     </>

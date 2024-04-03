@@ -1,4 +1,6 @@
- let cardData = [
+import { Card2Img1, Card2Img2, Card2Img3 } from "@images"
+
+let cardData = [
  {
      id: 1,
      title: "Kursus Gratis",
@@ -32,4 +34,37 @@
 
 ];
 
-export {cardData}
+let card2Data = [
+    {
+        id: 1,
+        title: "Dasar Pemrograman WEB ",
+        description: "Materi pembelajarn mengenai pembuatan website tingkat pemula",
+        jam :"4,5 Jam",
+        video:"20 Video",
+        users:"1.900 Siswa",
+        star:"4,9",
+        images: Card2Img2
+    },
+    {
+        id: 2,
+        title: "Data Science Dasar",
+        description: "Materi pembelajaran mengenai dasar-dasar data science",
+        jam :" Ja6,2m",
+        video:"32 Video",
+        users:"930 Siswa",
+        star:"4,9",
+        images: Card2Img1
+    },
+    {
+        id: 3,
+        title: "Data Science Dasar ",
+        description: "Materi pembelajaran mengenai dasar-dasar data science",
+        jam :"8 Jam",
+        video:"46 Video",
+        users:"1.043 Siswa",
+        star:"4,9",
+        images: Card2Img3
+    },
+];
+
+export {cardData , card2Data}
